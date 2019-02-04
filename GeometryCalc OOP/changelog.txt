@@ -1,6 +1,6 @@
 CHANGELOG
 
-1.0 - Vydanie 4 funkcií (Kruh, Štvorec, Obdånik, Trojúholník) v plnej funkènosti
+1.0	- Vydanie 4 funkcií (Kruh, Štvorec, Obdånik, Trojúholník) v plnej funkènosti
 	- Monos resetovania programu pri ukonèení pomocou napísania è. 1
 1.1	- Vydanie funkcie Pravoúholnı trojúholník s vıpisom vzorcov a funkciou Aplikácia pythagorovej vety
 	- Pridanie changelogu
