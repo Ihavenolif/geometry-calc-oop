@@ -2,8 +2,8 @@ package code;
 
 import java.util.Scanner;
 
-public class Main {
-	
+public class Main 
+{	
 	public static void main(String[] args) 
 	{
 		
@@ -15,6 +15,7 @@ public class Main {
 			System.out.println("2. Štvorec (stvorec)");
 			System.out.println("3. Obdåžnik (obdlznik)");
 			System.out.println("4. Trojúholník (trojuholnik)");
+			System.out.println("5. Pravoúhly Trojúholník (ptrojuholnik)");
 			System.out.println("Napíš text v zátvorke pre spustenie funkcie");
 			
 			String detect = sc.next();
@@ -37,15 +38,26 @@ public class Main {
 				trojuholnik trojuholnik = new trojuholnik();
 				trojuholnik.init();
 				break;
+			case "ptrojuholnik":
+				ptrojuholnik ptrojuholnik = new ptrojuholnik();
+				ptrojuholnik.init();
+				break;
 			}
 		
 			System.out.println("Napíš 1 pre resetovanie programu");
 			
-			try {
+			try 
+			{
 			reset = sc.nextInt();
-			} catch (java.util.InputMismatchException e) {
+			} 
+			
+			catch (java.util.InputMismatchException e) //Ak je vstup iný, než INT
+			{
 
-			} catch (Exception f) {
+			} 
+			
+			catch (Exception f) //Akáko¾vek iná výnimka -> vypíše sa do konzole
+			{
 				System.out.println(f);
 			}
 			
